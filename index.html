@@ -1,29 +1,37 @@
 <!--Looking at my code? :) -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
+ <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
- <title>RPessoa.com</title>
-
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/v4-shims.css">
 
  <link href="./resources/css/all.css" rel="stylesheet"> <!--load all styles -->
 
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <!-- <style>
+ ul {
+  list-style: none;
 
+}
+
+
+ </style> -->
+
+
+<title>RPessoa.com</title>
 
 </head>
 
 <body>
+  ul {
+   list-style: none;
+  }
+
+
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="btn-group">
@@ -35,6 +43,12 @@
     <a class="dropdown-item" href="https://www.linkedin.com/in/rodrigo-pessoa" target="blank"><i class="fa fa-linkedin" style="font-size:20px;"></i> LinkedIn</a>
     <a class="dropdown-item" href="https://github.com/Rpessoa" target="blank"><i class="fa fa-github" style="font-size:20px;"></i> Github</a>
     <a class="dropdown-item" href="https://medium.com/@rpessoa/" target="blank"><i class="fa fa-medium" style="font-size:20px;"></i> Medium</a>
+    <br>
+    <a class="dropdown-item" href="#">Home</a>
+    <a class="dropdown-item" href="#About">About</a>
+    <a class="dropdown-item" href="#SDK">SDK</a>
+    <a class="dropdown-item" href="#Projects">Projects</a>
+    <a class="dropdown-item" href="#Contact">Contact</a>
   </div>
 </div>
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -62,10 +76,10 @@
     </div>
   </nav>
 
-  <main role="main" class="container-fluid">
-    <div class="row">
-      <div class="col-3"></div>
-    <div class="col-6">
+  <main role="main" class="container">
+    <div class="row bg-white">
+      <div class="col"></div>
+    <div class="col-md-auto">
       <div class="starter-template">
         <br><br><br><br>
         <h1>Software Developer</h1>
@@ -73,113 +87,125 @@
         <br>
       </div>
     </div>
-    <div class="col-3"></div>
+    <div class="col"></div>
     </div>
 
 
     <div class="row bg-dark text-white" div id="About">
-      <div class="col-2"></div>
-      <div class="col-8">
+      <!-- <div class="col"></div> -->
+      <div class="col-md-auto">
         <br><br><br>
 
       <h3>About me</h3>
       <br>
-      <p>I am fascinated by everything related to computers. I feel the need to understand how things works under the abstraction. This strong interest in technology led me to graduate in Computer Science at Concordia. I also have an MBA from John Molson School of Business.</p>
-      <p>When I am not working/coding/hacking (<img src="https://www.codewars.com/users/Rpessoa/badges/micro">), I spend my free time reading about technology and business. I enjoy snowboarding, pc games, travelling with my family and having a BBQ with friends.</p>
+      <p>I am fascinated by everything related to computers. I feel the need to understand how things works under the abstraction.
+      <p>This strong interest in technology led me to graduate in Computer Science at Concordia. I also have an MBA from John Molson School of Business.</p>
+      <p>When I am not working/coding/hacking, I spend my free time reading about technology and business.</p>
+      <p>I enjoy snowboarding, pc games, travelling with my family and having a BBQ with friends.</p>
       <p>I am fluent in 🇨🇦 English, 🇫🇷 French and 🇧🇷 Portuguese.</p>
       <br><br>
     </div>
-    <div class="col-2"></div>
+    <!-- <div class="col"></div> -->
     </div>
 
     <div class="row bg-light" id="SDK">
-      <div class="col-2"></div>
-        <div class="col-8">
+      <!-- <div class="col"></div> -->
+        <div class="col-md-auto">
         <br><br><br>
 
-      <h3>My Software Development Kit</h3>
+      <h3>Software Development Kit</h3>
       <br>
       <p>Programming Languages:</p>
       <div class="ml-4">My main tool is modern C++ (C++11 forward). However, I'm always thinkering with others languages such as Python and JavaScript.</div>
       <br>
       <p>Operational System:</p>
-      <div class="ml-4">Linux became my OS of choice due to its powerfull environment. I can do everything from my terminal (code, Git, Bash, SSH, GDB, etc...). That said, I still keep a MacBook Air and a huge PC desktop close by.</div>
+      <div class="ml-4">Linux became my OS of choice due to its powerfull environment. I can do everything from my terminal (code, Git, Bash, SSH, GDB, etc...).<br>That said, I still keep a MacBook Air and a huge PC desktop close by.</div>
       <br><br>
     </div>
-    <div class="col-2"></div>
+    <!-- <div class="col"></div> -->
   </div>
 
 
       <div class="row bg-white align-items-start" id="Projects">
-        <div class="col-2"></div>
-        <div class="col">
+        <!-- <div class="col"></div> -->
+        <div class="col-md-auto">
           <br><br><br>
           <h3>Projects</h3>
           <br>
         </div>
+        <!-- <div class="col"></div> -->
       </div>
-      <div class="row align-items-start">
-        <div class="col-2"></div>
-        <div class="col">
+      <div class="row">
+        <!-- <div class="col"></div> -->
+        <div class="col-sm-4">
           <p><span class="fas fa-code-branch" style="font-size:20px;"></span> Software Development</p>
           <ul>
-            <li>C++ <span class="fas fa-lock" style="font-size:15px;"></span></li>
-            <li>Python <span class="fas fa-lock" style="font-size:15px;"></span></li>
-            <li>JavaScript <span class="fas fa-lock" style="font-size:15px;"></span></li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>JavaScript</li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-sm-4">
           <p><span class="fab fa-linux" style="font-size:20px;"></span> Linux</p>
           <ul>
-            <li>Bash scripts <span class="fas fa-lock" style="font-size:15px;"></span></li>
+            <li>Bash scripts</li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-sm-4">
           <p><span class="fas fa-microchip" style="font-size:20px;"></span> Embedded Systems</p>
           <ul>
-            <li>Arduino <span class="fas fa-lock" style="font-size:15px;"></span></li>
-            <li>Raspeberry Pi <span class="fas fa-lock" style="font-size:15px;"></span></li>
+            <li>Arduino</li>
+            <li>Raspeberry Pi</li>
           </ul>
           <br><br>
         </div>
-        <div class="col-2"></div>
+        <!-- <div class="col"></div> -->
       </div>
       <div class="row">
-        <div class="col-2"></div>
-        <div class="col-10">
-          <p><small><span class="fas fa-lock-open"></span> Link is available.</small></p>
-              <p><small><span class="fas fa-lock"></span> Link not yet available.</small></p>
-              <br><br>
+        <!-- <div class="col"></div> -->
+        <div class="col-md-auto">
+          <!-- <p><small><span class="fas fa-lock-open"></span> Link is available.</small></p> -->
+          <p><small><span class="fas fa-lock"></span> Links to my projects not yet available!</small></p>
+          <br><br>
         </div>
+        <!-- <div class="col"></div> -->
 
       </div>
 
 
       <div class="row bg-dark align-items-start" id="Contact">
-        <div class="col-2"></div>
+        <!-- <div class="col"></div> -->
         <div class="col">
-          <div class="text-center">
             <br><br><br>
-            <img src="https://avatars3.githubusercontent.com/u/5239596?s=460&v=4" class="rounded-circle">
-            <br>
-            <p class="text-white"><small>That's not me!</small></p>
+            <!-- <div class="text-center"> -->
+            <img src="https://avatars3.githubusercontent.com/u/5239596?s=460&v=4" class="rounded-circle mx-auto d-block">
+            <!-- </div> -->
+
+            <p class="text-white text-center"><small>That's not me!</small></p>
             <br><br><br>
-          </div>
+
         </div>
-        <div class="col-2"></div>
+        <!-- <div class="col"></div> -->
       </div>
 
       <div class="row bg-dark align-items-start">
-        <div class="col-2"></div>
+        <!-- <div class="col"></div> -->
         <div class="col">
             <p class="text-white text-center">Thank you for visiting!<br>
-              If you which to contact me, please use one of the links available in the top left dropdown menu.<br>
+              If you which to contact me, please use one of the links below.<br>
               For professional inqueries, please use LinkedIn. For anything else, just use the easiest way for you! :)</p>
-            <br><br><br>
+            <br><br>
+            <p class="text-center">
+              <a href="https://twitter.com/rodmobile" class="text-white" target="blank"><i class="fa fa-twitter" style="font-size:20px;"></i></a> ::
+              <a href="https://www.linkedin.com/in/rodrigo-pessoa" class="text-white" target="blank"><i class="fa fa-linkedin" style="font-size:20px;"></i></a> ::
+              <a href="https://github.com/Rpessoa" class="text-white" target="blank"><i class="fa fa-github" style="font-size:20px;"></i></a> ::
+              <a href="https://medium.com/@rpessoa/" class="text-white" target="blank"><i class="fa fa-medium" style="font-size:20px;"></i></a>
+            </p>
+            <br><br>
             <p class="text-center text-white"><small>Copyright &copy; RPessoa.com 2016-2020</small></p>
             <br><br><br>
         </div>
-        <div class="col-2"></div>
+        <!-- <div class="col"></div> -->
       </div>
       </div>
 
@@ -194,6 +220,9 @@
 
 
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>
